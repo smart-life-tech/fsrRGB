@@ -2,7 +2,7 @@
 void setup(void)
 {
     Serial.begin(9600);
-    for (size_t i = 0; i < 5; i++)
+    for (size_t i = 2; i < 14; i++)
     {
         pinMode(i, OUTPUT);
     }
